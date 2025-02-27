@@ -3,12 +3,12 @@ body {
     background-color: #ffffff;
     font-family: 'Brush Script MT', cursive;
     margin: 2;
-    padding: 2;
+    padding: 0;
 }
 
 header {
     background-color: #000000;
     color: #ca1d51;
-    padding: 1em;
+    padding: 3em;
     text-align: center;
 }
