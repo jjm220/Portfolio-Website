@@ -1,14 +1,14 @@
 /* styles.css */
 body {
-    background-color: #00eeff;
+    background-color: #ffffff;
     font-family: Georgia, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #d0ff00;
-    color: #ff004c;
+    background-color: #000000;
+    color: #ca1d51;
     padding: 1em;
     text-align: right;
 }
