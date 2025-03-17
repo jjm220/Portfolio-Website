@@ -18,7 +18,7 @@ header {
 
 #about {
     height: 100vh;
-    padding-left: 100px;
+    padding-left: 300px;
     display: flex;
     background-color: orange
 }
