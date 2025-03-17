@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     background-color: #ffffff;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Brush Script MT', cursive;
     margin: 2;
     padding: 0;
@@ -14,4 +14,11 @@ header {
     color: #64bfe2;
     padding: 2em;
     text-align: center;
+}
+
+.about {
+    height: 100vh;
+    padding: 50;
+    display: flex;
+    background-color: orange
 }
