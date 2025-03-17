@@ -19,6 +19,7 @@ header {
 #about {
     height: 100vh;
     padding-left: 500px;
+    justify-content: flex-start;
     display: flex;
     background-color: orange
 }
