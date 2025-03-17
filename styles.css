@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    background-color: #222222;
+    background-color: #ffffff;
     color: rgb(255, 255, 255);
     font-family: 'Brush Script MT', cursive;
     margin: 2;
@@ -8,10 +8,10 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #ffffff;
     border: solid 10px white;
     border-radius: 30px;
-    color: #ca1d51;
+    color: #64bfe2;
     padding: 2em;
     text-align: center;
 }
