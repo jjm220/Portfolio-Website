@@ -16,9 +16,9 @@ header {
     text-align: center;
 }
 
-.about {
-    height: 100vh;
-    padding: 50;
+#about {
+    height: 200vh;
+    padding: 50px;
     display: flex;
     background-color: orange
 }
