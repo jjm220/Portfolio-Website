@@ -1,25 +1,57 @@
 /* styles.css */
 body {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-family: 'Brush Script MT', cursive;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Big Shoulders", sans-serif;
     margin: 2;
     padding: 0;
+    /* -webkit-text-stroke: 1.2px rgb(0, 204, 255); */
 }
 
-header {
-    background-color: #ffffff;
-    border: solid 10px rgb(0, 0, 0);
-    border-radius: 30px;
-    color: #64bfe2;
-    padding: 2em;
+
+#header {
+    perspective: 1000px;
+    
+}
+
+.big_title {
+    font-weight: bold;
     text-align: center;
+    font-size: 50px;
+    transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
+    transform-style: preserve-3d;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: 1.2px rgb(0, 204, 255);
+}
+
+#avatar {
+    /*background-color: #000000;
+    border: solid 10px rgb(0, 0, 0);
+    border-radius: 30px;*/
+    color: rgb(0, 204, 255);
+    padding-top: 100px;
+    /*padding: 2em;*/
+    text-align: center;
+    -webkit-text-stroke: .1px rgb(255, 255, 255);
 }
 
 #about {
-    height: 100vh;
-    padding-right: 20px;
-    justify-content: flex-start;
-    display: flex;
-    background-color: orange
+    height: 75vh;
+    padding-right: 0px;
+    padding-top: 200px;
+    text-align: center;
+    
+    /*background-color: rgb(0, 0, 0)*/
+}
+
+#about-me {
+    padding-left: 0px;
+}
+
+.mini_title {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
 }
