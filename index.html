@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
+<div>
+    <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+</div>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +21,12 @@
     </div>
 
     <div id="avatar">
-        <img src="images/IMG_9206.JPG" height= "300" width="300" style="border: solid 2px; border-radius: 150px;">
+        <img src="images/IMG_9206.JPG" class="foreground">
         <h1>Jessiah Martinez</h1>
         <h2>Camden NJ</h2>
     </div>
 
-    <section id="about">
+    <div id="about">
         <h2 class="big_title" id="about-me">About Me</h2>
         <p class="text">
             I'm a recent Computer Science graduate from Rutgers Camden, looking to transition into a full time tech role.
@@ -31,32 +34,31 @@
             I have an interest in game development, cyber security and software development. I am currently looking for an entry level tech
             position, so I can gain experience and build my technical skills. 
         </p>
-    </section>
+    </div>
 
-    <section id="projects">
+    <div id="projects">
         <h2 class="big_title">Projects</h2>
-
-        <project1>
-            <h3 class="mini_title">Spellcasters Hideout</h3>
-            <p class="text">First person platformer made during a video game design course. The game was made using unity and C#.
+            <!-- project 1 -->
+        <div class="project-card">
+            <h3 class="project-title">Spellcasters Hideout</h3>
+            <p class="project-description">First person platformer made during a video game design course. The game was made using unity and C#.
             </p>
-            <a href="https://y4rk.itch.io/spellcasters-hideout">Game</a>
-        </project1>
-
-        <project2>
-            <h3 class="mini_title">Webcrawler</h3>
-            <p class="text">
+            <a href="https://y4rk.itch.io/spellcasters-hideout" class="project-link" target="_blank">Game</a>
+        </div>
+            <!-- project 2 -->
+        <div class="project-card">
+            <h3 class="project-title">Webcrawler</h3>
+            <p class="project-description">
                 Program created to sift through multiple website links. The program searches for other links on these
                 webpages and adds them to a queue to be processed.
             </p>
-        </project2>
-
-    </section>
+        </div>
+    </div>
 
     <footer id="contact">
 
-        <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a><br>
-        <a href="https://www.linkedin.com/in/jessiah-martinez-05237a1a3/">LinkedIn</a></p>
+        <p>Contact: <a href="mailto:your.email@example.com" target="_blank">Email</a>
+        <a href="https://www.linkedin.com/in/jessiah-martinez-05237a1a3/" target="_blank">LinkedIn</a></p>
     </footer>
 </body>
 </html>
